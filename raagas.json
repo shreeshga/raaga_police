@@ -1,0 +1,121 @@
+{
+    "Raagas": [
+        {
+            "Name": "HamsaDhwani" ,
+            "Notes" : [
+                "SA",
+                "RE",
+                "GA",
+                "PA",
+                "NI",
+                "SA'",
+                "SA'",
+                "NI",
+                "PA",
+                "GA",
+                "RE",
+                "SA" 
+            ],
+			"Indices": [0,2,4,7,11,12,12,11,7,4,2,0],
+			"Level": "Easy",
+            "State" : "Unlocked" 
+        },
+        {
+            "Name": "Bhairavi" ,
+            "Notes" : [
+                "SA",
+                "ga",
+                "RI",
+		"GA",
+                "ma",
+                "PA",
+                "da",
+                "ni",
+                "SA'",
+				"SA'",
+				"ni",
+				"DA",
+				"PA",
+				"ma",
+				"GA",
+				"RI",
+				"ga",
+				"SA"
+            ],
+			"Indices": [0,2,3,5,7,8,10,12,12,10,8,7,5,3,2,0],
+            "Level": "Moderate",
+            "State": "Locked" 
+        },
+        {
+            "Name": "Bhupali" ,
+            "Notes" : [
+                "SA",
+                "RI",
+                "GA",
+                "PA",
+                "DA",
+                "SA'",
+                "SA'",
+                "DA",
+                "PA",
+                "GA",
+                "RI",
+                "SA" 
+            ],
+			"Indices": [0,2,4,7,11,12,12,11,7,4,2,0],
+            "Level": "Moderate",
+            "State": "Locked" 
+        },
+        {
+            "Name": "Asari" ,
+            "Notes": [
+                "SA",
+                "RI",
+                "ga",
+                "ma",
+                "PA",
+                "da",
+                "ni",
+                "SA'",
+                "SA'",
+                "da",
+                "ni",
+                "PA",
+                "ma",
+                "PA",
+                "ni",
+                "ga",
+                "ma",
+                "RI",
+                "SA" 
+            ],
+			"Indices": [0,2,4,7,11,12,12,11,7,4,2,0],
+            "Level": "Moderate",
+            "State": "Locked" 
+        },
+        {
+            "Name": "Durga" ,
+            "Notes": [
+                "SA",
+                "RI",
+                "ma",
+                "PA",
+                "DA",
+                "SA'",
+                "SA'",
+                "DA",
+                "ma",
+                "PA",
+                "DA",
+                "ma",
+                "RI",
+                "DA",
+                "SA" 
+            ],
+			"Indices": [0,2,4,7,11,12,12,11,7,4,2,0],
+            "Level": "Moderate",
+            "State": "Locked" 
+        } 
+    ],
+    "Count": 5
+}

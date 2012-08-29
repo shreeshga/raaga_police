@@ -1,0 +1,734 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		21023B43139E899100BC3AB2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21023B42139E899100BC3AB2 /* CoreLocation.framework */; };
+		21641A7215D9D92E0030FD26 /* 16Hz-20kHz.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21641A0B15D9D92E0030FD26 /* 16Hz-20kHz.wav */; };
+		21641A7315D9D92E0030FD26 /* 440Hz-5sec.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21641A0C15D9D92E0030FD26 /* 440Hz-5sec.wav */; };
+		21641A7415D9D92E0030FD26 /* bg_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A0D15D9D92E0030FD26 /* bg_bg.png */; };
+		21641A7515D9D92E0030FD26 /* farSound.caf in Resources */ = {isa = PBXBuildFile; fileRef = 21641A0E15D9D92E0030FD26 /* farSound.caf */; };
+		21641A7615D9D92E0030FD26 /* feedBack.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A0F15D9D92E0030FD26 /* feedBack.png */; };
+		21641A7715D9D92E0030FD26 /* hamsadhwani.wav in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1015D9D92E0030FD26 /* hamsadhwani.wav */; };
+		21641A7815D9D92E0030FD26 /* icon_play.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1115D9D92E0030FD26 /* icon_play.png */; };
+		21641A7915D9D92E0030FD26 /* icon_stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1215D9D92E0030FD26 /* icon_stop.png */; };
+		21641A7A15D9D92E0030FD26 /* info1.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1315D9D92E0030FD26 /* info1.png */; };
+		21641A7B15D9D92E0030FD26 /* info2.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1415D9D92E0030FD26 /* info2.png */; };
+		21641A7C15D9D92E0030FD26 /* info3.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1515D9D92E0030FD26 /* info3.png */; };
+		21641A7D15D9D92E0030FD26 /* infoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1615D9D92E0030FD26 /* infoViewController.xib */; };
+		21641A7E15D9D92E0030FD26 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1715D9D92E0030FD26 /* MainWindow.xib */; };
+		21641A7F15D9D92E0030FD26 /* OMLDLogo_Black.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1815D9D92E0030FD26 /* OMLDLogo_Black.jpg */; };
+		21641A8015D9D92E0030FD26 /* OMLDLogo_White.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1915D9D92E0030FD26 /* OMLDLogo_White.jpg */; };
+		21641A8115D9D92E0030FD26 /* RaagaPolice-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1A15D9D92E0030FD26 /* RaagaPolice-72.png */; };
+		21641A8215D9D92E0030FD26 /* RaagaPolice-highres.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1B15D9D92E0030FD26 /* RaagaPolice-highres.png */; };
+		21641A8315D9D92E0030FD26 /* RaagaPolice.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1C15D9D92E0030FD26 /* RaagaPolice.png */; };
+		21641A8415D9D92E0030FD26 /* RaagaPoliceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1D15D9D92E0030FD26 /* RaagaPoliceViewController.xib */; };
+		21641A8515D9D92E0030FD26 /* Screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1E15D9D92E0030FD26 /* Screenshot.png */; };
+		21641A8615D9D92E0030FD26 /* shankar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21641A1F15D9D92E0030FD26 /* shankar.jpg */; };
+		21641A8715D9D92E0030FD26 /* shankar_started.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A2015D9D92E0030FD26 /* shankar_started.png */; };
+		21641A8815D9D92E0030FD26 /* shankar_stopped.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A2115D9D92E0030FD26 /* shankar_stopped.png */; };
+		21641A8915D9D92E0030FD26 /* splash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 21641A2215D9D92E0030FD26 /* splash.jpg */; };
+		21641A8A15D9D92E0030FD26 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A2315D9D92E0030FD26 /* star.png */; };
+		21641A8B15D9D92E0030FD26 /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A2415D9D92E0030FD26 /* Start.png */; };
+		21641A8C15D9D92E0030FD26 /* wb_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 21641A2515D9D92E0030FD26 /* wb_bg.png */; };
+		21641A8D15D9D92E0030FD26 /* AQLevelMeter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21641A2915D9D92E0030FD26 /* AQLevelMeter.mm */; };
+		21641A8E15D9D92E0030FD26 /* GLLevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A2B15D9D92E0030FD26 /* GLLevelMeter.m */; };
+		21641A8F15D9D92E0030FD26 /* LevelMeter.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A2D15D9D92E0030FD26 /* LevelMeter.m */; };
+		21641A9015D9D92E0030FD26 /* MeterTable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21641A2E15D9D92E0030FD26 /* MeterTable.cpp */; };
+		21641A9115D9D92E0030FD26 /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A3115D9D92E0030FD26 /* SoundEffect.m */; };
+		21641A9215D9D92E0030FD26 /* ToneOffset.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A3315D9D92E0030FD26 /* ToneOffset.m */; };
+		21641A9315D9D92E0030FD26 /* notes.cc in Sources */ = {isa = PBXBuildFile; fileRef = 21641A3615D9D92E0030FD26 /* notes.cc */; };
+		21641A9415D9D92E0030FD26 /* pitch.cc in Sources */ = {isa = PBXBuildFile; fileRef = 21641A3815D9D92E0030FD26 /* pitch.cc */; };
+		21641A9515D9D92E0030FD26 /* RaagaList.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A3B15D9D92E0030FD26 /* RaagaList.m */; };
+		21641A9615D9D92E0030FD26 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A3E15D9D92E0030FD26 /* Util.m */; };
+		21641A9715D9D92E0030FD26 /* DSActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A4015D9D92E0030FD26 /* DSActivityView.m */; };
+		21641A9815D9D92E0030FD26 /* InAppPurchaseMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A4215D9D92E0030FD26 /* InAppPurchaseMgr.m */; };
+		21641A9915D9D92E0030FD26 /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A4415D9D92E0030FD26 /* infoViewController.m */; };
+		21641A9A15D9D92E0030FD26 /* CADebugMacros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21641A4615D9D92E0030FD26 /* CADebugMacros.cpp */; };
+		21641A9B15D9D92E0030FD26 /* CAStreamBasicDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21641A4915D9D92E0030FD26 /* CAStreamBasicDescription.cpp */; };
+		21641A9C15D9D92E0030FD26 /* CAXException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21641A4B15D9D92E0030FD26 /* CAXException.cpp */; };
+		21641A9D15D9D92E0030FD26 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A5015D9D92E0030FD26 /* NSObject+SBJSON.m */; };
+		21641A9E15D9D92E0030FD26 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A5215D9D92E0030FD26 /* NSString+SBJSON.m */; };
+		21641A9F15D9D92E0030FD26 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A5415D9D92E0030FD26 /* SBJSON.m */; };
+		21641AA015D9D92E0030FD26 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A5615D9D92E0030FD26 /* SBJsonBase.m */; };
+		21641AA115D9D92E0030FD26 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A5815D9D92E0030FD26 /* SBJsonParser.m */; };
+		21641AA215D9D92E0030FD26 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A5A15D9D92E0030FD26 /* SBJsonWriter.m */; };
+		21641AA315D9D92E0030FD26 /* color.cc in Sources */ = {isa = PBXBuildFile; fileRef = 21641A5E15D9D92E0030FD26 /* color.cc */; };
+		21641AA415D9D92E0030FD26 /* RaagaPoliceNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A6315D9D92E0030FD26 /* RaagaPoliceNote.m */; };
+		21641AA515D9D92E0030FD26 /* RaagaLines.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A6615D9D92E0030FD26 /* RaagaLines.m */; };
+		21641AA615D9D92E0030FD26 /* RaagaPoliceAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21641A6815D9D92E0030FD26 /* RaagaPoliceAppDelegate.mm */; };
+		21641AA715D9D92E0030FD26 /* RaagaPoliceSlideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A6A15D9D92E0030FD26 /* RaagaPoliceSlideMenuView.m */; };
+		21641AA815D9D92E0030FD26 /* RaagaPoliceSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21641A6C15D9D92E0030FD26 /* RaagaPoliceSource.mm */; };
+		21641AA915D9D92E0030FD26 /* RaagaPoliceViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 21641A6E15D9D92E0030FD26 /* RaagaPoliceViewController.mm */; };
+		21641AAA15D9D92E0030FD26 /* SwaraBallDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21641A7015D9D92E0030FD26 /* SwaraBallDelegate.m */; };
+		21641AAB15D9D92E0030FD26 /* temp in Resources */ = {isa = PBXBuildFile; fileRef = 21641A7115D9D92E0030FD26 /* temp */; };
+		2186706B1249CE12006AC995 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2186706A1249CE12006AC995 /* AVFoundation.framework */; };
+		219FE2A712439859001C8073 /* raagas.json in Resources */ = {isa = PBXBuildFile; fileRef = 219FE2A612439859001C8073 /* raagas.json */; };
+		21B6FCB212940B0B00499FB0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B6FCB112940B0B00499FB0 /* StoreKit.framework */; };
+		21B6FF1D129927E600499FB0 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21B6FF1C129927E600499FB0 /* iAd.framework */; };
+		21C80640121A9ADB0058B7DC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C8063F121A9ADB0058B7DC /* Accelerate.framework */; };
+		21FB1D631212BB7100BB6BDB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FB1D621212BB7100BB6BDB /* AudioToolbox.framework */; };
+		21FB21CC1213A34B00BB6BDB /* soundbar_plate_mono.png in Resources */ = {isa = PBXBuildFile; fileRef = 21FB21C81213A34B00BB6BDB /* soundbar_plate_mono.png */; };
+		21FB22171213B8A700BB6BDB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FB22161213B8A700BB6BDB /* OpenGLES.framework */; };
+		21FB22191213B8A700BB6BDB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FB22181213B8A700BB6BDB /* QuartzCore.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* RaagaPolice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaagaPolice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21023B42139E899100BC3AB2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		21641A0B15D9D92E0030FD26 /* 16Hz-20kHz.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "16Hz-20kHz.wav"; sourceTree = "<group>"; };
+		21641A0C15D9D92E0030FD26 /* 440Hz-5sec.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "440Hz-5sec.wav"; sourceTree = "<group>"; };
+		21641A0D15D9D92E0030FD26 /* bg_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_bg.png; sourceTree = "<group>"; };
+		21641A0E15D9D92E0030FD26 /* farSound.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = farSound.caf; sourceTree = "<group>"; };
+		21641A0F15D9D92E0030FD26 /* feedBack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = feedBack.png; sourceTree = "<group>"; };
+		21641A1015D9D92E0030FD26 /* hamsadhwani.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hamsadhwani.wav; sourceTree = "<group>"; };
+		21641A1115D9D92E0030FD26 /* icon_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_play.png; sourceTree = "<group>"; };
+		21641A1215D9D92E0030FD26 /* icon_stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_stop.png; sourceTree = "<group>"; };
+		21641A1315D9D92E0030FD26 /* info1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info1.png; sourceTree = "<group>"; };
+		21641A1415D9D92E0030FD26 /* info2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info2.png; sourceTree = "<group>"; };
+		21641A1515D9D92E0030FD26 /* info3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info3.png; sourceTree = "<group>"; };
+		21641A1615D9D92E0030FD26 /* infoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = infoViewController.xib; sourceTree = "<group>"; };
+		21641A1715D9D92E0030FD26 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		21641A1815D9D92E0030FD26 /* OMLDLogo_Black.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OMLDLogo_Black.jpg; sourceTree = "<group>"; };
+		21641A1915D9D92E0030FD26 /* OMLDLogo_White.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = OMLDLogo_White.jpg; sourceTree = "<group>"; };
+		21641A1A15D9D92E0030FD26 /* RaagaPolice-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RaagaPolice-72.png"; sourceTree = "<group>"; };
+		21641A1B15D9D92E0030FD26 /* RaagaPolice-highres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RaagaPolice-highres.png"; sourceTree = "<group>"; };
+		21641A1C15D9D92E0030FD26 /* RaagaPolice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RaagaPolice.png; sourceTree = "<group>"; };
+		21641A1D15D9D92E0030FD26 /* RaagaPoliceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RaagaPoliceViewController.xib; sourceTree = "<group>"; };
+		21641A1E15D9D92E0030FD26 /* Screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot.png; sourceTree = "<group>"; };
+		21641A1F15D9D92E0030FD26 /* shankar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shankar.jpg; sourceTree = "<group>"; };
+		21641A2015D9D92E0030FD26 /* shankar_started.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shankar_started.png; sourceTree = "<group>"; };
+		21641A2115D9D92E0030FD26 /* shankar_stopped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shankar_stopped.png; sourceTree = "<group>"; };
+		21641A2215D9D92E0030FD26 /* splash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = splash.jpg; sourceTree = "<group>"; };
+		21641A2315D9D92E0030FD26 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		21641A2415D9D92E0030FD26 /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Start.png; sourceTree = "<group>"; };
+		21641A2515D9D92E0030FD26 /* wb_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wb_bg.png; sourceTree = "<group>"; };
+		21641A2815D9D92E0030FD26 /* AQLevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AQLevelMeter.h; sourceTree = "<group>"; };
+		21641A2915D9D92E0030FD26 /* AQLevelMeter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AQLevelMeter.mm; sourceTree = "<group>"; };
+		21641A2A15D9D92E0030FD26 /* GLLevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLLevelMeter.h; sourceTree = "<group>"; };
+		21641A2B15D9D92E0030FD26 /* GLLevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLLevelMeter.m; sourceTree = "<group>"; };
+		21641A2C15D9D92E0030FD26 /* LevelMeter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelMeter.h; sourceTree = "<group>"; };
+		21641A2D15D9D92E0030FD26 /* LevelMeter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelMeter.m; sourceTree = "<group>"; };
+		21641A2E15D9D92E0030FD26 /* MeterTable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeterTable.cpp; sourceTree = "<group>"; };
+		21641A2F15D9D92E0030FD26 /* MeterTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeterTable.h; sourceTree = "<group>"; };
+		21641A3015D9D92E0030FD26 /* SoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEffect.h; sourceTree = "<group>"; };
+		21641A3115D9D92E0030FD26 /* SoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoundEffect.m; sourceTree = "<group>"; };
+		21641A3215D9D92E0030FD26 /* ToneOffset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToneOffset.h; sourceTree = "<group>"; };
+		21641A3315D9D92E0030FD26 /* ToneOffset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToneOffset.m; sourceTree = "<group>"; };
+		21641A3515D9D92E0030FD26 /* constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constants.h; sourceTree = "<group>"; };
+		21641A3615D9D92E0030FD26 /* notes.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = notes.cc; sourceTree = "<group>"; };
+		21641A3715D9D92E0030FD26 /* notes.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = notes.hh; sourceTree = "<group>"; };
+		21641A3815D9D92E0030FD26 /* pitch.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pitch.cc; sourceTree = "<group>"; };
+		21641A3915D9D92E0030FD26 /* pitch.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pitch.hh; sourceTree = "<group>"; };
+		21641A3A15D9D92E0030FD26 /* RaagaList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaagaList.h; sourceTree = "<group>"; };
+		21641A3B15D9D92E0030FD26 /* RaagaList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaagaList.m; sourceTree = "<group>"; };
+		21641A3C15D9D92E0030FD26 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		21641A3D15D9D92E0030FD26 /* util.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = util.hh; sourceTree = "<group>"; };
+		21641A3E15D9D92E0030FD26 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		21641A3F15D9D92E0030FD26 /* DSActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSActivityView.h; sourceTree = "<group>"; };
+		21641A4015D9D92E0030FD26 /* DSActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSActivityView.m; sourceTree = "<group>"; };
+		21641A4115D9D92E0030FD26 /* InAppPurchaseMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InAppPurchaseMgr.h; sourceTree = "<group>"; };
+		21641A4215D9D92E0030FD26 /* InAppPurchaseMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InAppPurchaseMgr.m; sourceTree = "<group>"; };
+		21641A4315D9D92E0030FD26 /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		21641A4415D9D92E0030FD26 /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
+		21641A4615D9D92E0030FD26 /* CADebugMacros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CADebugMacros.cpp; sourceTree = "<group>"; };
+		21641A4715D9D92E0030FD26 /* CADebugMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CADebugMacros.h; sourceTree = "<group>"; };
+		21641A4815D9D92E0030FD26 /* CAMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMath.h; sourceTree = "<group>"; };
+		21641A4915D9D92E0030FD26 /* CAStreamBasicDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAStreamBasicDescription.cpp; sourceTree = "<group>"; };
+		21641A4A15D9D92E0030FD26 /* CAStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAStreamBasicDescription.h; sourceTree = "<group>"; };
+		21641A4B15D9D92E0030FD26 /* CAXException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CAXException.cpp; sourceTree = "<group>"; };
+		21641A4C15D9D92E0030FD26 /* CAXException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAXException.h; sourceTree = "<group>"; };
+		21641A4E15D9D92E0030FD26 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		21641A4F15D9D92E0030FD26 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		21641A5015D9D92E0030FD26 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		21641A5115D9D92E0030FD26 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		21641A5215D9D92E0030FD26 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		21641A5315D9D92E0030FD26 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		21641A5415D9D92E0030FD26 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		21641A5515D9D92E0030FD26 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		21641A5615D9D92E0030FD26 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		21641A5715D9D92E0030FD26 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		21641A5815D9D92E0030FD26 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		21641A5915D9D92E0030FD26 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		21641A5A15D9D92E0030FD26 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		21641A5C15D9D92E0030FD26 /* audio.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = audio.hpp; sourceTree = "<group>"; };
+		21641A5D15D9D92E0030FD26 /* audio_dev.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = audio_dev.hpp; sourceTree = "<group>"; };
+		21641A5E15D9D92E0030FD26 /* color.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = color.cc; sourceTree = "<group>"; };
+		21641A5F15D9D92E0030FD26 /* color.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = color.hh; sourceTree = "<group>"; };
+		21641A6015D9D92E0030FD26 /* fft.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fft.hpp; sourceTree = "<group>"; };
+		21641A6115D9D92E0030FD26 /* mixer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = mixer.hpp; sourceTree = "<group>"; };
+		21641A6215D9D92E0030FD26 /* RaagaPoliceNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaagaPoliceNote.h; sourceTree = "<group>"; };
+		21641A6315D9D92E0030FD26 /* RaagaPoliceNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaagaPoliceNote.m; sourceTree = "<group>"; };
+		21641A6415D9D92E0030FD26 /* sample.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sample.hpp; sourceTree = "<group>"; };
+		21641A6515D9D92E0030FD26 /* RaagaLines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaagaLines.h; sourceTree = "<group>"; };
+		21641A6615D9D92E0030FD26 /* RaagaLines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaagaLines.m; sourceTree = "<group>"; };
+		21641A6715D9D92E0030FD26 /* RaagaPoliceAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaagaPoliceAppDelegate.h; sourceTree = "<group>"; };
+		21641A6815D9D92E0030FD26 /* RaagaPoliceAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RaagaPoliceAppDelegate.mm; sourceTree = "<group>"; };
+		21641A6915D9D92E0030FD26 /* RaagaPoliceSlideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaagaPoliceSlideMenu.h; sourceTree = "<group>"; };
+		21641A6A15D9D92E0030FD26 /* RaagaPoliceSlideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaagaPoliceSlideMenuView.m; sourceTree = "<group>"; };
+		21641A6B15D9D92E0030FD26 /* RaagaPoliceSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaagaPoliceSource.h; sourceTree = "<group>"; };
+		21641A6C15D9D92E0030FD26 /* RaagaPoliceSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RaagaPoliceSource.mm; sourceTree = "<group>"; };
+		21641A6D15D9D92E0030FD26 /* RaagaPoliceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaagaPoliceViewController.h; sourceTree = "<group>"; };
+		21641A6E15D9D92E0030FD26 /* RaagaPoliceViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RaagaPoliceViewController.mm; sourceTree = "<group>"; };
+		21641A6F15D9D92E0030FD26 /* SwaraBallDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwaraBallDelegate.h; sourceTree = "<group>"; };
+		21641A7015D9D92E0030FD26 /* SwaraBallDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwaraBallDelegate.m; sourceTree = "<group>"; };
+		21641A7115D9D92E0030FD26 /* temp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = temp; sourceTree = "<group>"; };
+		2186706A1249CE12006AC995 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		219FE2A612439859001C8073 /* raagas.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = raagas.json; sourceTree = "<group>"; };
+		21B6FCB112940B0B00499FB0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		21B6FF1C129927E600499FB0 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		21C8063F121A9ADB0058B7DC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		21FB1D621212BB7100BB6BDB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		21FB21C91213A34B00BB6BDB /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = en.lproj/soundbar_plate_mono.png; sourceTree = "<group>"; };
+		21FB22161213B8A700BB6BDB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		21FB22181213B8A700BB6BDB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* RaagaPolice_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaagaPolice_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* RaagaPolice-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RaagaPolice-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21023B43139E899100BC3AB2 /* CoreLocation.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				21FB1D631212BB7100BB6BDB /* AudioToolbox.framework in Frameworks */,
+				21FB22171213B8A700BB6BDB /* OpenGLES.framework in Frameworks */,
+				21FB22191213B8A700BB6BDB /* QuartzCore.framework in Frameworks */,
+				21C80640121A9ADB0058B7DC /* Accelerate.framework in Frameworks */,
+				2186706B1249CE12006AC995 /* AVFoundation.framework in Frameworks */,
+				21B6FCB212940B0B00499FB0 /* StoreKit.framework in Frameworks */,
+				21B6FF1D129927E600499FB0 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RaagaPolice.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21641A0A15D9D92E0030FD26 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21641A0B15D9D92E0030FD26 /* 16Hz-20kHz.wav */,
+				21641A0C15D9D92E0030FD26 /* 440Hz-5sec.wav */,
+				21641A0D15D9D92E0030FD26 /* bg_bg.png */,
+				21641A0E15D9D92E0030FD26 /* farSound.caf */,
+				21641A0F15D9D92E0030FD26 /* feedBack.png */,
+				21641A1015D9D92E0030FD26 /* hamsadhwani.wav */,
+				21641A1115D9D92E0030FD26 /* icon_play.png */,
+				21641A1215D9D92E0030FD26 /* icon_stop.png */,
+				21641A1315D9D92E0030FD26 /* info1.png */,
+				21641A1415D9D92E0030FD26 /* info2.png */,
+				21641A1515D9D92E0030FD26 /* info3.png */,
+				21641A1615D9D92E0030FD26 /* infoViewController.xib */,
+				21641A1715D9D92E0030FD26 /* MainWindow.xib */,
+				21641A1815D9D92E0030FD26 /* OMLDLogo_Black.jpg */,
+				21641A1915D9D92E0030FD26 /* OMLDLogo_White.jpg */,
+				21641A1A15D9D92E0030FD26 /* RaagaPolice-72.png */,
+				21641A1B15D9D92E0030FD26 /* RaagaPolice-highres.png */,
+				21641A1C15D9D92E0030FD26 /* RaagaPolice.png */,
+				21641A1D15D9D92E0030FD26 /* RaagaPoliceViewController.xib */,
+				21641A1E15D9D92E0030FD26 /* Screenshot.png */,
+				21641A1F15D9D92E0030FD26 /* shankar.jpg */,
+				21641A2015D9D92E0030FD26 /* shankar_started.png */,
+				21641A2115D9D92E0030FD26 /* shankar_stopped.png */,
+				21641A2215D9D92E0030FD26 /* splash.jpg */,
+				21641A2315D9D92E0030FD26 /* star.png */,
+				21641A2415D9D92E0030FD26 /* Start.png */,
+				21641A2515D9D92E0030FD26 /* wb_bg.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21641A2615D9D92E0030FD26 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				21641A2715D9D92E0030FD26 /* AudioViews */,
+				21641A3415D9D92E0030FD26 /* common */,
+				21641A3F15D9D92E0030FD26 /* DSActivityView.h */,
+				21641A4015D9D92E0030FD26 /* DSActivityView.m */,
+				21641A4115D9D92E0030FD26 /* InAppPurchaseMgr.h */,
+				21641A4215D9D92E0030FD26 /* InAppPurchaseMgr.m */,
+				21641A4315D9D92E0030FD26 /* infoViewController.h */,
+				21641A4415D9D92E0030FD26 /* infoViewController.m */,
+				21641A4515D9D92E0030FD26 /* iPublicUtility */,
+				21641A4D15D9D92E0030FD26 /* JSON */,
+				21641A5B15D9D92E0030FD26 /* libda */,
+				21641A6515D9D92E0030FD26 /* RaagaLines.h */,
+				21641A6615D9D92E0030FD26 /* RaagaLines.m */,
+				21641A6715D9D92E0030FD26 /* RaagaPoliceAppDelegate.h */,
+				21641A6815D9D92E0030FD26 /* RaagaPoliceAppDelegate.mm */,
+				21641A6915D9D92E0030FD26 /* RaagaPoliceSlideMenu.h */,
+				21641A6A15D9D92E0030FD26 /* RaagaPoliceSlideMenuView.m */,
+				21641A6B15D9D92E0030FD26 /* RaagaPoliceSource.h */,
+				21641A6C15D9D92E0030FD26 /* RaagaPoliceSource.mm */,
+				21641A6D15D9D92E0030FD26 /* RaagaPoliceViewController.h */,
+				21641A6E15D9D92E0030FD26 /* RaagaPoliceViewController.mm */,
+				21641A6F15D9D92E0030FD26 /* SwaraBallDelegate.h */,
+				21641A7015D9D92E0030FD26 /* SwaraBallDelegate.m */,
+				21641A7115D9D92E0030FD26 /* temp */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		21641A2715D9D92E0030FD26 /* AudioViews */ = {
+			isa = PBXGroup;
+			children = (
+				21641A2815D9D92E0030FD26 /* AQLevelMeter.h */,
+				21641A2915D9D92E0030FD26 /* AQLevelMeter.mm */,
+				21641A2A15D9D92E0030FD26 /* GLLevelMeter.h */,
+				21641A2B15D9D92E0030FD26 /* GLLevelMeter.m */,
+				21641A2C15D9D92E0030FD26 /* LevelMeter.h */,
+				21641A2D15D9D92E0030FD26 /* LevelMeter.m */,
+				21641A2E15D9D92E0030FD26 /* MeterTable.cpp */,
+				21641A2F15D9D92E0030FD26 /* MeterTable.h */,
+				21641A3015D9D92E0030FD26 /* SoundEffect.h */,
+				21641A3115D9D92E0030FD26 /* SoundEffect.m */,
+				21641A3215D9D92E0030FD26 /* ToneOffset.h */,
+				21641A3315D9D92E0030FD26 /* ToneOffset.m */,
+			);
+			path = AudioViews;
+			sourceTree = "<group>";
+		};
+		21641A3415D9D92E0030FD26 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				21641A3515D9D92E0030FD26 /* constants.h */,
+				21641A3615D9D92E0030FD26 /* notes.cc */,
+				21641A3715D9D92E0030FD26 /* notes.hh */,
+				21641A3815D9D92E0030FD26 /* pitch.cc */,
+				21641A3915D9D92E0030FD26 /* pitch.hh */,
+				21641A3A15D9D92E0030FD26 /* RaagaList.h */,
+				21641A3B15D9D92E0030FD26 /* RaagaList.m */,
+				21641A3C15D9D92E0030FD26 /* Util.h */,
+				21641A3D15D9D92E0030FD26 /* util.hh */,
+				21641A3E15D9D92E0030FD26 /* Util.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		21641A4515D9D92E0030FD26 /* iPublicUtility */ = {
+			isa = PBXGroup;
+			children = (
+				21641A4615D9D92E0030FD26 /* CADebugMacros.cpp */,
+				21641A4715D9D92E0030FD26 /* CADebugMacros.h */,
+				21641A4815D9D92E0030FD26 /* CAMath.h */,
+				21641A4915D9D92E0030FD26 /* CAStreamBasicDescription.cpp */,
+				21641A4A15D9D92E0030FD26 /* CAStreamBasicDescription.h */,
+				21641A4B15D9D92E0030FD26 /* CAXException.cpp */,
+				21641A4C15D9D92E0030FD26 /* CAXException.h */,
+			);
+			path = iPublicUtility;
+			sourceTree = "<group>";
+		};
+		21641A4D15D9D92E0030FD26 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				21641A4E15D9D92E0030FD26 /* JSON.h */,
+				21641A4F15D9D92E0030FD26 /* NSObject+SBJSON.h */,
+				21641A5015D9D92E0030FD26 /* NSObject+SBJSON.m */,
+				21641A5115D9D92E0030FD26 /* NSString+SBJSON.h */,
+				21641A5215D9D92E0030FD26 /* NSString+SBJSON.m */,
+				21641A5315D9D92E0030FD26 /* SBJSON.h */,
+				21641A5415D9D92E0030FD26 /* SBJSON.m */,
+				21641A5515D9D92E0030FD26 /* SBJsonBase.h */,
+				21641A5615D9D92E0030FD26 /* SBJsonBase.m */,
+				21641A5715D9D92E0030FD26 /* SBJsonParser.h */,
+				21641A5815D9D92E0030FD26 /* SBJsonParser.m */,
+				21641A5915D9D92E0030FD26 /* SBJsonWriter.h */,
+				21641A5A15D9D92E0030FD26 /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		21641A5B15D9D92E0030FD26 /* libda */ = {
+			isa = PBXGroup;
+			children = (
+				21641A5C15D9D92E0030FD26 /* audio.hpp */,
+				21641A5D15D9D92E0030FD26 /* audio_dev.hpp */,
+				21641A5E15D9D92E0030FD26 /* color.cc */,
+				21641A5F15D9D92E0030FD26 /* color.hh */,
+				21641A6015D9D92E0030FD26 /* fft.hpp */,
+				21641A6115D9D92E0030FD26 /* mixer.hpp */,
+				21641A6215D9D92E0030FD26 /* RaagaPoliceNote.h */,
+				21641A6315D9D92E0030FD26 /* RaagaPoliceNote.m */,
+				21641A6415D9D92E0030FD26 /* sample.hpp */,
+			);
+			path = libda;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				21641A0A15D9D92E0030FD26 /* Resources */,
+				21641A2615D9D92E0030FD26 /* Classes */,
+				21023B42139E899100BC3AB2 /* CoreLocation.framework */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* RaagaPolice_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				219FE2A612439859001C8073 /* raagas.json */,
+				21FB21C81213A34B00BB6BDB /* soundbar_plate_mono.png */,
+				8D1107310486CEB800E47090 /* RaagaPolice-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				21FB1D621212BB7100BB6BDB /* AudioToolbox.framework */,
+				21FB22161213B8A700BB6BDB /* OpenGLES.framework */,
+				21FB22181213B8A700BB6BDB /* QuartzCore.framework */,
+				21C8063F121A9ADB0058B7DC /* Accelerate.framework */,
+				2186706A1249CE12006AC995 /* AVFoundation.framework */,
+				21B6FCB112940B0B00499FB0 /* StoreKit.framework */,
+				21B6FF1C129927E600499FB0 /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RaagaPolice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RaagaPolice" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaagaPolice;
+			productName = RaagaPolice;
+			productReference = 1D6058910D05DD3D006BFB54 /* RaagaPolice.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RaagaPolice" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RaagaPolice */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FB21CC1213A34B00BB6BDB /* soundbar_plate_mono.png in Resources */,
+				219FE2A712439859001C8073 /* raagas.json in Resources */,
+				21641A7215D9D92E0030FD26 /* 16Hz-20kHz.wav in Resources */,
+				21641A7315D9D92E0030FD26 /* 440Hz-5sec.wav in Resources */,
+				21641A7415D9D92E0030FD26 /* bg_bg.png in Resources */,
+				21641A7515D9D92E0030FD26 /* farSound.caf in Resources */,
+				21641A7615D9D92E0030FD26 /* feedBack.png in Resources */,
+				21641A7715D9D92E0030FD26 /* hamsadhwani.wav in Resources */,
+				21641A7815D9D92E0030FD26 /* icon_play.png in Resources */,
+				21641A7915D9D92E0030FD26 /* icon_stop.png in Resources */,
+				21641A7A15D9D92E0030FD26 /* info1.png in Resources */,
+				21641A7B15D9D92E0030FD26 /* info2.png in Resources */,
+				21641A7C15D9D92E0030FD26 /* info3.png in Resources */,
+				21641A7D15D9D92E0030FD26 /* infoViewController.xib in Resources */,
+				21641A7E15D9D92E0030FD26 /* MainWindow.xib in Resources */,
+				21641A7F15D9D92E0030FD26 /* OMLDLogo_Black.jpg in Resources */,
+				21641A8015D9D92E0030FD26 /* OMLDLogo_White.jpg in Resources */,
+				21641A8115D9D92E0030FD26 /* RaagaPolice-72.png in Resources */,
+				21641A8215D9D92E0030FD26 /* RaagaPolice-highres.png in Resources */,
+				21641A8315D9D92E0030FD26 /* RaagaPolice.png in Resources */,
+				21641A8415D9D92E0030FD26 /* RaagaPoliceViewController.xib in Resources */,
+				21641A8515D9D92E0030FD26 /* Screenshot.png in Resources */,
+				21641A8615D9D92E0030FD26 /* shankar.jpg in Resources */,
+				21641A8715D9D92E0030FD26 /* shankar_started.png in Resources */,
+				21641A8815D9D92E0030FD26 /* shankar_stopped.png in Resources */,
+				21641A8915D9D92E0030FD26 /* splash.jpg in Resources */,
+				21641A8A15D9D92E0030FD26 /* star.png in Resources */,
+				21641A8B15D9D92E0030FD26 /* Start.png in Resources */,
+				21641A8C15D9D92E0030FD26 /* wb_bg.png in Resources */,
+				21641AAB15D9D92E0030FD26 /* temp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				21641A8D15D9D92E0030FD26 /* AQLevelMeter.mm in Sources */,
+				21641A8E15D9D92E0030FD26 /* GLLevelMeter.m in Sources */,
+				21641A8F15D9D92E0030FD26 /* LevelMeter.m in Sources */,
+				21641A9015D9D92E0030FD26 /* MeterTable.cpp in Sources */,
+				21641A9115D9D92E0030FD26 /* SoundEffect.m in Sources */,
+				21641A9215D9D92E0030FD26 /* ToneOffset.m in Sources */,
+				21641A9315D9D92E0030FD26 /* notes.cc in Sources */,
+				21641A9415D9D92E0030FD26 /* pitch.cc in Sources */,
+				21641A9515D9D92E0030FD26 /* RaagaList.m in Sources */,
+				21641A9615D9D92E0030FD26 /* Util.m in Sources */,
+				21641A9715D9D92E0030FD26 /* DSActivityView.m in Sources */,
+				21641A9815D9D92E0030FD26 /* InAppPurchaseMgr.m in Sources */,
+				21641A9915D9D92E0030FD26 /* infoViewController.m in Sources */,
+				21641A9A15D9D92E0030FD26 /* CADebugMacros.cpp in Sources */,
+				21641A9B15D9D92E0030FD26 /* CAStreamBasicDescription.cpp in Sources */,
+				21641A9C15D9D92E0030FD26 /* CAXException.cpp in Sources */,
+				21641A9D15D9D92E0030FD26 /* NSObject+SBJSON.m in Sources */,
+				21641A9E15D9D92E0030FD26 /* NSString+SBJSON.m in Sources */,
+				21641A9F15D9D92E0030FD26 /* SBJSON.m in Sources */,
+				21641AA015D9D92E0030FD26 /* SBJsonBase.m in Sources */,
+				21641AA115D9D92E0030FD26 /* SBJsonParser.m in Sources */,
+				21641AA215D9D92E0030FD26 /* SBJsonWriter.m in Sources */,
+				21641AA315D9D92E0030FD26 /* color.cc in Sources */,
+				21641AA415D9D92E0030FD26 /* RaagaPoliceNote.m in Sources */,
+				21641AA515D9D92E0030FD26 /* RaagaLines.m in Sources */,
+				21641AA615D9D92E0030FD26 /* RaagaPoliceAppDelegate.mm in Sources */,
+				21641AA715D9D92E0030FD26 /* RaagaPoliceSlideMenuView.m in Sources */,
+				21641AA815D9D92E0030FD26 /* RaagaPoliceSource.mm in Sources */,
+				21641AA915D9D92E0030FD26 /* RaagaPoliceViewController.mm in Sources */,
+				21641AAA15D9D92E0030FD26 /* SwaraBallDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21FB21C81213A34B00BB6BDB /* soundbar_plate_mono.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FB21C91213A34B00BB6BDB /* en */,
+			);
+			name = soundbar_plate_mono.png;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RaagaPolice_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Users/shreeshga/Work/Reference/coreplot/Source/framework/**";
+				INFOPLIST_FILE = "RaagaPolice-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Downloads/Folx/InMobi_iOS_SDK/InMobi iOS SDK Bundle\"",
+				);
+				PRODUCT_NAME = RaagaPolice;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RaagaPolice_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Users/shreeshga/Work/Reference/coreplot/Source/framework/**";
+				INFOPLIST_FILE = "RaagaPolice-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Downloads/Folx/InMobi_iOS_SDK/InMobi iOS SDK Bundle\"",
+				);
+				PRODUCT_NAME = RaagaPolice;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		211F997A122CF52500C0A72B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: OML Digital Production Pvt Ltd";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/shreeshga/Work/Reference/coreplot/Source/framework,
+					/Users/shreeshga/Work/Reference/coreplot/Source/framework/Source,
+					/Users/shreeshga/Work/Reference/coreplot/Source/framework/iPhoneOnly,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "56C64618-6584-471C-8BBF-9CAFFB003721";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		211F997B122CF52500C0A72B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RaagaPolice_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Users/shreeshga/Work/Reference/coreplot/Source/framework/**";
+				INFOPLIST_FILE = "RaagaPolice-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../../Downloads/Folx/InMobi_iOS_SDK/InMobi iOS SDK Bundle\"",
+				);
+				PRODUCT_NAME = RaagaPolice;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Shreesh  Ayachit (P29BUN8G6L)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/shreeshga/Work/Reference/coreplot/Source/framework,
+					/Users/shreeshga/Work/Reference/coreplot/Source/framework/Source,
+					/Users/shreeshga/Work/Reference/coreplot/Source/framework/iPhoneOnly,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A0CB9564-CDF0-41B4-8F85-5F1185BCDA58";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/shreeshga/Work/Reference/coreplot/Source/framework,
+					/Users/shreeshga/Work/Reference/coreplot/Source/framework/Source,
+					/Users/shreeshga/Work/Reference/coreplot/Source/framework/iPhoneOnly,
+				);
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RaagaPolice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				211F997B122CF52500C0A72B /* Distribution */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RaagaPolice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				211F997A122CF52500C0A72B /* Distribution */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
