@@ -1,6 +1,16 @@
-raaga_police
+Raaga Police
 ============
 
-Voice pitch detector for Indian notes
+Detects voice pitch and graphically displays whether the note is higher or lower than 
+the correct note.
 
-*Need to cleanup code*
+Features:
+  * Raagas can be specified as a list of notes in json format.
+  * Tuned to ignore non-vocal sounds.
+  * Additional raagas can be added easily.
+  * Funny animating balls on hitting the note :)
+
+
+
+
+
