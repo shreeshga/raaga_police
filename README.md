@@ -10,7 +10,8 @@ Features:
   * Additional raagas can be added easily.
   * Funny animating balls on hitting the note :)
 
-
+Screenshot
+----------
 ![screenshot](https://raw.github.com/shreeshga/raaga_police/master/Resources/Screenshot.png)
 
 
